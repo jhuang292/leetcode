@@ -1,0 +1,5 @@
+1. Extra helper method is binary search to find the largest length of palindromic which is the consectutive characters are the same.
+2. LongestPalindrome method is used to compare the same consecutive characters in two cases: 
+   a. the number of same consecutive characters is odd.
+   b. the number of same consecutive characters is even.
+3. Choose the maximum one of the two case and choose the one as the final one. 
