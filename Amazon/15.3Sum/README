@@ -1,0 +1,18 @@
+Tricky method: 1. Sort the list
+	       2. Check whether the length of the list is larger than 2
+	       3. Iterate the list from begining to the one before the last one:
+		  a. if the consecutive item are the same skip to next one
+		  b. define the left and right iterator, the left iterator is the one after 
+		     the for loop iterator, the right iterator is the iterator of the last one  
+                     of the list.
+		  c. if the left iterator less than the right iterator:
+			I. Sum the three items.
+			II. if sum is less than 0: left iterator++
+			III. if sum is larger than 0: right iterator--
+			IV. else: if the consecutive items which left iterator points to are the 
+					same, left iterator keeps ++, 
+				  if the consecutive items which right iterator points to are the 
+					same, right keeps iterator--,
+				  left iterator++
+				  right iterator--
+		4. return list
