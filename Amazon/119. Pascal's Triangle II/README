@@ -1,0 +1,1 @@
+This solution is tricky, zip method is used stack the elements, iteration starts from the beginning to the goal row.
